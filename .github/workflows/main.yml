@@ -16,9 +16,6 @@ jobs:
       run: zip -r xslt_release.zip *.xml *.xslt
 
     - name: Upload ZIP to release
-      uses: actions/upload-release-asset@v2
+      uses: softprops/action-gh-release@v1
       with:
-        upload_url: ${{ github.event.release.upload_url }}
-        asset_path: ./xslt_release.zip
-        asset_name: xslt_release.zip
-        asset_content_type: application/zip
+        files: xslt_release.zip

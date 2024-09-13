@@ -16,7 +16,7 @@ jobs:
       run: echo "RELEASE_TAG=${{ github.event.release.tag_name }}" >> $GITHUB_ENV
 
     - name: Create ZIP archive
-      run: zip -r xslt_release_${{ github.event.release.tag_name }}.zip *.xml *.xslt
+      run: zip -r xslt_release_${{ github.event.release.tag_name }}.zip *.xml *.xslt *.xsl
 
     - name: Upload ZIP to release
       uses: softprops/action-gh-release@v1

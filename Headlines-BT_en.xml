@@ -2284,4 +2284,7 @@ If remittance information is to be mapped to the End To End Identification field
 	<BusinessTerm id="tir19-additionalitemproperty">
 		<TermName>Additional Item Property</TermName>
 	</BusinessTerm>
+	<BusinessTerm id="tir19-additionalitempropertyid">
+		<TermName>Additional Item Property ID</TermName>
+	</BusinessTerm>
 </SemanticModel>

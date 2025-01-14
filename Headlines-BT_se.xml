@@ -1734,4 +1734,7 @@
 	<BusinessTerm id="tir19-additionalitemproperty">
 		<TermName>Egenskap/Attribut</TermName>
 	</BusinessTerm>
+		<BusinessTerm id="tir19-additionalitempropertyid">
+		<TermName>Egenskap/Attribut ID</TermName>
+	</BusinessTerm>
 </SemanticModel>

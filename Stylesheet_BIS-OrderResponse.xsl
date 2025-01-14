@@ -2,7 +2,7 @@
 <!--******************************************************************************************************************
 
 		title= Peppol BIS Ordering, OrderResponse Transaction - Reference stylesheet
-		Version of this reference stylesheet: 1.0 
+		Version of this reference stylesheet: 1.1 
 		publisher= SFTI
 		conformsTo= UBL-OrderResponse-2.1.xsd 
 
@@ -527,7 +527,7 @@ padding-top:1vw;
                     <br/>
                   </xsl:if>
                   <br/>
-                  <br/>This OrderResponse visualization is generated from SFTI BIS Order 3 XSL Stylesheet Version 1.0<br/>
+                  <br/>This OrderResponse visualization is generated from SFTI BIS Order 3 XSL Stylesheet Version 1.1<br/>
                   
                 </small>
               </p>
